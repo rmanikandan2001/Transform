@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:50px 0 100px 100px;
+}
+.box{
+	height:100px;
+	width:100px;
+	border:2px solid blue;
+	margin:50px;
+	background-color:yellow;
+}
+
+.rotate-transform div:nth-child(1):hover{
+	transform:rotate(90deg);
+
+}
+.rotate-transform div:nth-child(2):hover{
+	transform:rotate(180deg);
+	
+
+}
+
+.rotate-transform  div:nth-child(3):hover{
+	transform:rotate(-90deg);
+	
+
+}
+
+.rotate-transform div:nth-child(4):hover{
+	transform:rotate(-180deg);
+
+}
+
+.scale-transform div:nth-child(1):hover{
+	transform:scaleX(1.5);
+
+}
+.scale-transform div:nth-child(2):hover{
+	transform:scaleY(1.5);
+	
+
+}
+
+.scale-transform  div:nth-child(3):hover{
+	transform:scale(2,3);
+	
+
+}
+
+.scale-transform div:nth-child(4):hover{
+	transform:scale(0.5,0.5);
+
+}
+
+.translate-transform div:nth-child(1):hover{
+	transform:translateX(20%);
+
+}
+.translate-transform div:nth-child(2):hover{
+	transform:translate(-5%);
+	
+
+}
+
+.translate-transform  div:nth-child(3):hover{
+	transform:translateY(20%);
+	
+
+}
+
+.translate-transform div:nth-child(4):hover{
+	transform:translateY(-20%);
+
+}
+
+.skew-transform div:nth-child(1):hover{
+	transform:skewX(30deg);
+
+}
+.skew-transform div:nth-child(2):hover{
+	transform:skewY(40deg);
+	
+
+}
+
+.skew-transform  div:nth-child(3):hover{
+	transform:skew(-30deg);
+	
+
+}
+
+.skew-transform div:nth-child(4):hover{
+	transform:skew(-90deg);
+
+}
+
+.matrix-transform div:nth-child(4):hover{
+	transform:matrix(2,0.5,0.3,3,2,3);
+
+}
